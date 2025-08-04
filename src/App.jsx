@@ -32,7 +32,7 @@ export const App = () => {
                 id="search-query"
                 className="input"
                 placeholder="Type search word"
-                onChange={any => setQuery(any.target.value)}
+                onChange={event => setQuery(event.target.value)}
               />
             </div>
           </div>
